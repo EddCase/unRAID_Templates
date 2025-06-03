@@ -1,1 +1,33 @@
-
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Windward-Horizon</Name>
+  <Repository>eddcase/windward-horizon-server:latest</Repository>
+  <Registry>https://github.com/EddCase/Windward-Horizon</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/EddCase/unRAID_Templates/issues</Support>
+  <Project>https://hub.docker.com/repository/docker/eddcase/windward-horizon-server</Project>
+  <Overview>Windward Horizon Server&#xD;
+&#xD;
+Will download latest Windward Horizon Server file and run it with the included commands</Overview>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/EddCase/unRAID_Templates/refs/heads/main/WindwardHorizon_Steam.ico</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1748965792</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Server Name" Target="WINDWARD_SERVER_NAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Windward Horizon Server</Config>
+  <Config Name="Server Save / World" Target="WINDWARD_SERVER_WORLD" Default="Unanamed" Mode="" Description="The name of the world to create on the server (Note - Don't include the .world extension)." Type="Variable" Display="always" Required="false" Mask="false">Unnamed</Config>
+  <Config Name="Server Port" Target="5123" Default="5123" Mode="tcp" Description="Server Port" Type="Port" Display="always" Required="false" Mask="false">5123</Config>
+  <Config Name="Public or Private Server" Target="WINDWARD_SERVER_PUBLIC" Default="0" Mode="" Description="Set to 1 to show in the Windward Horizon Server List" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="Server Admin Steam ID" Target="WINDWARD_SERVER_ADMIN" Default="" Mode="" Description="Steam ID of the server admin" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="AppData" Target="/windward-horizon" Default="/mnt/user/appdata/windward-horizon" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/windward-horizon</Config>
+  <TailscaleStateDir/>
+</Container>
