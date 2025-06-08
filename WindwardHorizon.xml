@@ -2,13 +2,13 @@
 <Container version="2">
   <Name>Windward-Horizon</Name>
   <Repository>https://github.com/EddCase/Windward-Horizon</Repository>
-  <Registry>https://hub.docker.com/r/eddcase/windward-horizon-server</Registry>
+  <Registry>https://hub.docker.com/r/gregjoeval/windward-horizon</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/EddCase/unRAID_Templates/issues</Support>
-  <Project>https://hub.docker.com/repository/docker/eddcase/windward-horizon-server</Project>
+  <Project>https://hub.docker.com/r/gregjoeval/windward-horizon</Project>
   <Overview>Windward Horizon Server&#xD;
 &#xD;
 Will download latest Windward Horizon Server file and run it with the included commands</Overview>
